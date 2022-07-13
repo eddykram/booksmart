@@ -82,7 +82,7 @@
 }
 
 main {
-    height: 100vh;
+    height: 120vh;
 }
 
 .main-contact {
@@ -277,4 +277,10 @@ main {
     .price-img {
         display: none;
     }
+}
+
+.directions {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }
