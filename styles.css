@@ -37,7 +37,10 @@
 .gallery p {
   font-size: 50px;
   position: absolute;
-  z-index: -10;
+  z-index: 10;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3%;
 }
 
 .img-container {
@@ -188,11 +191,9 @@ main {
   .head-container p {
     font-size: 13px;
   }
-
   footer {
     visibility: hidden;
   }
-
   .needs-validation {
     width: 500px;
     padding-left: 100px;
@@ -211,7 +212,6 @@ main {
   .head-container footer {
     visibility: hidden;
   }
-
   .price {
     margin-left: 50px;
     margin-right: 50px;
@@ -235,15 +235,12 @@ main {
   .media-head-text {
     display: block;
   }
-
   .primary {
     visibility: hidden;
   }
-
   footer {
     display: none;
   }
-
   .tachs-info {
     width: 480px;
   }
