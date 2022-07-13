@@ -51,18 +51,21 @@
         <div class="contact-heading">
             <h1>Contact Us!</h1>
         </div>
-        <form action="https://formsubmit.co/eddy.kram@gmail.com" method="POST" class="needs-validation" novalidate>
+        <form target="_blank" action="https://formsubmit.co/eddy.kram@gmail.com" method="POST" class="needs-validation" novalidate>
+          <input type="hidden" name="_subject" value="New Message!">
+          <input type="hidden" name="_autoresponse" value="Thank you for messaging BOOKSMART! We will get to your email shortly.">
+          <input type="hidden" name="_template" value="table">
             <div class="row">
               <div class="col-md-4 mb-3">
                 <label for="validationCustom01">First name</label>
-                <input name="firstname" type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
+                <input name="First Name" type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
               </div>
               <div class="col-md-4 mb-3">
                 <label for="validationCustom02">Last name</label>
-                <input name="lastname" type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
+                <input name="Last Name" type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
                 <div class="valid-feedback">
                   Looks good!
                 </div>
@@ -71,11 +74,11 @@
               <div class="row">
                 <div class="col-md-4 mb-5">
                     <label for="inputEmail4">Email</label>
-                    <input name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                    <input name="Email _replyto" type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                   </div>
                   <div class="col-md-4 mb-5">
                     <label for="inputEmail4">Message</label>
-                    <textarea name="message" rows="1" type="text" class="form-control" placeholder="Message" required></textarea>
+                    <textarea name="Message" rows="1" type="text" class="form-control" placeholder="Message" required></textarea>
                   </div>
                 </div>   
             <button class="btn btn-primary" type="submit">Submit form</button>
