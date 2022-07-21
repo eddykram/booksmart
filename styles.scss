@@ -13,20 +13,22 @@
 
 .head-text-main  {
     width: 700px;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.9);
     border-radius: 5%;
     position: absolute;
-    bottom: 150px;
+    bottom: 40px;
 }
 
 .head-text-main p {
     padding: 10px;
     text-align: center;
+    font-weight: 500;
+    font-size: 23px !important;
 }
 
 .primary-text img {
     object-fit: contain;
-    height: 100px;
+    height: 180px;
 }
 
 .head-sect h1 {
@@ -65,8 +67,23 @@
         position: absolute;
         z-index: 10;
         color: #000;
-        background-color: rgba(255,255,255,0.5);
         border-radius: 3%;
+    }
+
+    .o {
+        background-color: rgba(255,165,0,0.5);
+    }
+
+    .r {
+        background-color: rgba(255,0,0,0.5);
+    }
+
+    .g {
+        background-color: rgba(0,255,0,0.5);
+    }
+
+    .b {
+        background-color: rgba(0,0,255,0.5);
     }
 }
 
@@ -212,7 +229,7 @@ main {
         }
 
         p {
-            font-size: 16px;
+            font-size: 17px;
         }
     }
 }
@@ -226,7 +243,7 @@ main {
         }
 
         p {
-            font-size: 13px;
+            font-size: 17px !important;
         }
     }
     
@@ -250,7 +267,7 @@ main {
         }
 
         p {
-            font-size: 13px;
+            font-size: 17px !important;
         }
 
         footer {
@@ -287,6 +304,7 @@ main {
 
     .head-text-main {
         width: 600px;
+        bottom: 10px;
     }
 
     .primary {
