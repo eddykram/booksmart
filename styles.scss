@@ -12,7 +12,7 @@
 }
 
 .head-text-main  {
-    width: 700px;
+    width: 750px;
     background-color: rgba(255,255,255,0.9);
     border-radius: 5%;
     position: absolute;
@@ -330,7 +330,9 @@ main {
 }
 
 @media screen and (max-width: 1500px) {
-   
+    .head-text-main {
+        bottom: 150px;
+    }
    
     .price-img {
         display: none;
@@ -348,5 +350,11 @@ main {
     
     .head-text-main {
         width: 350px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .head-text-main {
+        bottom: 170px;
     }
 }
