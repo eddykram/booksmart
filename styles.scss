@@ -16,7 +16,7 @@
     background-color: rgba(255,255,255,0.9);
     border-radius: 5%;
     position: absolute;
-    bottom: 150px;
+    bottom: 90px;
 }
 
 .head-text-main p {
@@ -221,6 +221,8 @@ main {
 }
 
 @media screen and (max-width: 1300px) {
+
+    
     .head-container {
         padding-top: 60px;
 
@@ -259,6 +261,7 @@ main {
 }
 
 @media screen and (max-width: 900px) {
+    
     .head-container {
         padding-top: 160px;
 
@@ -298,6 +301,8 @@ main {
 }
 
 @media screen and (max-width: 750px) {
+    
+    
     .primary-text img {
         height: 130px;
     }
@@ -325,6 +330,8 @@ main {
 }
 
 @media screen and (max-width: 1500px) {
+   
+   
     .price-img {
         display: none;
     }
@@ -337,6 +344,8 @@ main {
 }
 
 @media screen and (max-width: 550px) {
+    
+    
     .head-text-main {
         width: 350px;
     }
