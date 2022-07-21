@@ -269,6 +269,9 @@ main {
 }
 
 @media screen and (max-width: 750px) {
+  .primary-text img {
+    height: 130px;
+  }
   .media-head-text {
     display: block;
   }
